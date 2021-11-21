@@ -150,3 +150,17 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Table Styles */
+
+table.services {
+	border: 10px solid gray;
+	font-size: 0.75em;
+	width: 100%;
+}
+
+table.services th, table.services td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: top;
+}
